@@ -1,0 +1,222 @@
+[
+  {
+    "id": "langgraph",
+    "rank": 1,
+    "title": "LangGraph",
+    "category": "Orchestration",
+    "summary": "Cyclic stateful multi-agent orchestration framework built by LangChain.",
+    "description": "LangGraph is a library for building stateful, multi-actor applications with LLMs, used to create agent and multi-agent workflows. Unlike DAG frameworks, LangGraph supports cyclic graphs, persistent state checkpoints, human-in-the-loop approvals, and fine-grained agent coordination.",
+    "keyFeatures": [
+      "Cyclic execution graphs for iterative agent reasoning",
+      "Built-in state persistence and time-travel debugging",
+      "Human-in-the-loop breakpoint controls",
+      "Multi-agent team delegation and routing"
+    ],
+    "specs": {
+      "language": "Python / TypeScript",
+      "license": "MIT",
+      "stars": "12.5k+",
+      "primaryUse": "Autonomous Multi-Agent Networks"
+    },
+    "docUrl": "https://langchain-ai.github.io/langgraph/",
+    "badge": "Top Choice"
+  },
+  {
+    "id": "mcp",
+    "rank": 2,
+    "title": "Model Context Protocol (MCP)",
+    "category": "Protocol & Connectivity",
+    "summary": "An open standard created by Anthropic for connecting AI models to tools and data sources.",
+    "description": "The Model Context Protocol (MCP) is an open standard that enables developers to build secure, two-way connections between AI applications and data sources or external tools. MCP replaces fragmented custom integrations with a unified client-server architecture.",
+    "keyFeatures": [
+      "Standardized client-server protocol over STDIO and SSE",
+      "Prompt templates, resource subscription, and tool invocation",
+      "Interoperable ecosystem across Claude Desktop, Cursor, and custom clients",
+      "Strong security boundaries for enterprise tool execution"
+    ],
+    "specs": {
+      "language": "TypeScript / Python / Go",
+      "license": "MIT",
+      "stars": "18.0k+",
+      "primaryUse": "Universal Tool & Data Integration"
+    },
+    "docUrl": "https://modelcontextprotocol.io/",
+    "badge": "Standard"
+  },
+  {
+    "id": "groq",
+    "rank": 3,
+    "title": "Groq LPU Inference Engine",
+    "category": "Compute & Inference",
+    "summary": "Ultra-low latency Language Processing Unit hardware for real-time agent responses.",
+    "description": "Groq provides ultra-high-speed inference for open LLMs (Llama 3, Mixtral) using custom-built LPU (Language Processing Unit) hardware. Groq enables real-time sub-second multi-turn agent loops necessary for voice AI and agentic reasoning cascades.",
+    "keyFeatures": [
+      "Sub-100ms time-to-first-token inference speed",
+      "500+ tokens per second on open models",
+      "Standard OpenAI API client compatibility",
+      "Deterministic predictable execution latency"
+    ],
+    "specs": {
+      "language": "REST / Python SDK",
+      "license": "Proprietary Cloud / Cloud API",
+      "stars": "N/A",
+      "primaryUse": "Real-Time Agent Execution"
+    },
+    "docUrl": "https://groq.com/",
+    "badge": "Speed King"
+  },
+  {
+    "id": "cursor",
+    "rank": 4,
+    "title": "Cursor AI IDE",
+    "category": "Development Environment",
+    "summary": "AI-native code editor optimized for agentic code edits and multi-file reasoning.",
+    "description": "Cursor is a fork of VS Code built from the ground up for AI-driven software development. Features include multi-file codebase indexing, Shadow Workspace agent execution, terminal auto-healing, and integrated agentic code editing.",
+    "keyFeatures": [
+      "Codebase indexing via fast vector search & symbol graph",
+      "Agentic multi-file code editing via Composer",
+      "Native terminal command execution and error auto-fix",
+      "Custom system prompt rules and project-level context"
+    ],
+    "specs": {
+      "language": "Electron / C++ / TypeScript",
+      "license": "Freemium / Commercial",
+      "stars": "25k+",
+      "primaryUse": "Autonomous AI Software Engineering"
+    },
+    "docUrl": "https://www.cursor.com/",
+    "badge": "Popular"
+  },
+  {
+    "id": "neo4j",
+    "rank": 5,
+    "title": "Neo4j Graph Database",
+    "category": "Memory & Knowledge",
+    "summary": "Enterprise graph database for GraphRAG and long-term agent relational memory.",
+    "description": "Neo4j provides high-performance graph database storage essential for GraphRAG (Graph Retrieval-Augmented Generation) and knowledge graph agent memory. Enables autonomous agents to model dynamic real-world entity relationships and temporal memory.",
+    "keyFeatures": [
+      "Cypher query language for complex graph traversals",
+      "Vector search indexing combined with graph traversal",
+      "Enterprise ACID compliance and transaction durability",
+      "Native integrations with LangChain, LlamaIndex, and Haystack"
+    ],
+    "specs": {
+      "language": "Java / Cypher / Python SDK",
+      "license": "GPLv3 / Enterprise Commercial",
+      "stars": "14.2k+",
+      "primaryUse": "GraphRAG & Agent Relational Memory"
+    },
+    "docUrl": "https://neo4j.com/",
+    "badge": "Enterprise"
+  },
+  {
+    "id": "pytorch",
+    "rank": 6,
+    "title": "PyTorch 2.x",
+    "category": "ML Framework",
+    "summary": "The foundational deep learning framework powering custom LLM training & fine-tuning.",
+    "description": "PyTorch is the premier open-source machine learning framework created by Meta AI. Modern agent developer tools rely on PyTorch for model fine-tuning (LoRA/QLoRA), custom agent reward modeling, reinforcement learning from human/AI feedback (RLHF/RLAIF), and tensor compute.",
+    "keyFeatures": [
+      "Dynamic computation graph (`torch.compile`) for max efficiency",
+      "Comprehensive GPU/TPU acceleration and distributed training",
+      "Vast ecosystem including Hugging Face, vLLM, and Deepspeed",
+      "TorchDynamo and Inductor compilation engines"
+    ],
+    "specs": {
+      "language": "Python / C++",
+      "license": "BSD-3-Clause",
+      "stars": "85.0k+",
+      "primaryUse": "Model Fine-Tuning & Custom Agent RL"
+    },
+    "docUrl": "https://pytorch.org/",
+    "badge": "Core ML"
+  },
+  {
+    "id": "vector-db",
+    "rank": 7,
+    "title": "ChromaDB / Qdrant Vector Stores",
+    "category": "Memory & Knowledge",
+    "summary": "High-speed semantic search databases for agent long-term vector memory.",
+    "description": "Vector databases store document embeddings and agent conversation histories. They enable semantic retrieval, context window management, and long-term episodic memory for autonomous agents.",
+    "keyFeatures": [
+      "Sub-millisecond approximate nearest neighbor (ANN) search",
+      "Payload filtering and multi-tenant isolation",
+      "In-memory local mode and cloud distributed modes",
+      "Hybrid dense-sparse retrieval capabilities"
+    ],
+    "specs": {
+      "language": "Python / Rust / Go",
+      "license": "Apache 2.0 / Open Source",
+      "stars": "15k+",
+      "primaryUse": "Agent Episodic & Semantic Memory"
+    },
+    "docUrl": "https://www.trychroma.com/",
+    "badge": "Essential"
+  },
+  {
+    "id": "docker",
+    "rank": 8,
+    "title": "Docker Sandboxes",
+    "category": "Execution Environment",
+    "summary": "Isolated containerized execution environments for secure untrusted agent code execution.",
+    "description": "Autonomous agents frequently generate and execute code (Bash, Python). Docker containers provide isolated, sandboxed environments with strict resource limits, preventing unsafe modifications to host systems.",
+    "keyFeatures": [
+      "Isolated filesystem, networking, and CPU/RAM quotas",
+      "Container state snapshots and fast reset capabilities",
+      "REST API execution control via Docker Engine API",
+      "Security hardening with seccomp and read-only rootfs"
+    ],
+    "specs": {
+      "language": "Go / Docker CLI",
+      "license": "Apache 2.0 / Commercial",
+      "stars": "70k+",
+      "primaryUse": "Secure Untrusted Agent Code Execution"
+    },
+    "docUrl": "https://www.docker.com/",
+    "badge": "Security"
+  },
+  {
+    "id": "codespaces",
+    "rank": 9,
+    "title": "GitHub Codespaces",
+    "category": "Development Environment",
+    "summary": "Cloud-hosted development environments for cloud agent deployment and collaboration.",
+    "description": "GitHub Codespaces delivers instant, cloud-hosted dev environments pre-configured with GPU acceleration, devcontainers, and secret management. Perfect for running background AI agents and remote multi-developer collaboration.",
+    "keyFeatures": [
+      "Devcontainer specification compliance",
+      "Instant setup with pre-baked dependencies and extension stacks",
+      "Port forwarding and web preview capabilities",
+      "Seamless integration with GitHub actions and AI runners"
+    ],
+    "specs": {
+      "language": "Cloud Container Service",
+      "license": "Commercial / Free Tier",
+      "stars": "N/A",
+      "primaryUse": "Cloud Dev Environments for AI Agents"
+    },
+    "docUrl": "https://github.com/features/codespaces",
+    "badge": "Cloud"
+  },
+  {
+    "id": "repomix",
+    "rank": 10,
+    "title": "Repomix (Repo2Text)",
+    "category": "Context Preparation",
+    "summary": "Tool that packs entire code repositories into a single LLM-friendly structured context file.",
+    "description": "Repomix (formerly Repository-to-Text) packs an entire project repository into a clean, structured XML or Markdown file formatted specifically for LLM context windows, complete with token counting and security secret scanning.",
+    "keyFeatures": [
+      "Automatic token counting for Claude, OpenAI, and Llama contexts",
+      "Built-in secret masking and sensitive file filtering",
+      "Tree structure representation and syntax highlighting",
+      "CLI, NPX, and library execution interfaces"
+    ],
+    "specs": {
+      "language": "TypeScript / Node.js",
+      "license": "MIT",
+      "stars": "5.5k+",
+      "primaryUse": "Codebase Context Packing for Agents"
+    },
+    "docUrl": "https://repomix.com/",
+    "badge": "Context Utility"
+  }
+]

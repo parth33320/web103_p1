@@ -1,0 +1,17 @@
+{
+  "name": "agentic-ai-listicle",
+  "version": "1.0.0",
+  "description": "Top 10 Agentic AI Frameworks & Developer Tools Listicle Web App",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1"
+  }
+}
