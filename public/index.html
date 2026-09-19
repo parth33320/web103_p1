@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 10 Agentic AI Frameworks & Developer Tools</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Top 10 Agentic AI Frameworks & Developer Tools</h1>
+      <p>Curated essential stack for engineering autonomous AI agents, multi-agent networks, and LLM dev tools.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Search & Filter Controls -->
+    <section class="controls-card">
+      <div class="controls-grid">
+        <div>
+          <label for="searchInput">Search Tools & Frameworks</label>
+          <input type="search" id="searchInput" placeholder="Search by keyword, tool name, or feature...">
+        </div>
+        <div>
+          <label for="categoryFilter">Category</label>
+          <select id="categoryFilter">
+            <option value="">All Categories</option>
+          </select>
+        </div>
+        <div>
+          <label for="sortSelect">Sort By</label>
+          <select id="sortSelect">
+            <option value="rank">Rank / Significance</option>
+            <option value="name">Alphabetical</option>
+            <option value="category">Category</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Unique Card Grid Layout -->
+    <section id="cardGrid" class="card-grid">
+      <!-- Dynamically Populated by app.js -->
+    </section>
+  </main>
+
+  <!-- Interactive Quick Preview Modal Overlay (Unique Format) -->
+  <div id="previewModal" class="modal-backdrop">
+    <div class="modal-content">
+      <button class="modal-close" id="modalCloseBtn">&times;</button>
+      <div id="modalBody">
+        <!-- Dynamically rendered preview content -->
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
